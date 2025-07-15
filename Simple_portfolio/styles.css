@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.nav-ul{
+    list-style: none;
+    display: flex;
+    gap:80px;
+}
+nav{
+    display: flex;
+    position: fixed;
+    top: 0;
+    overflow: hidden;
+    width: 100%;
+    color: white;
+    background-color:#1A2130;
+    justify-content: space-around;
+    padding: 10px;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+}
+#home{
+    display: flex;
+    align-items: center;
+    padding: 40px;
+    height: 100vh;
+    color: white;
+    background-color:#FF7F3E;
+}
+#home h1{
+    margin-bottom: 20px;
+}
+.home-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 40px;
+    text-align: center;
+}
+#home img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50% ;
+    border: 5px solid #FFF6E9;
+}
+#skill{
+    height:100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #80C4E9;
+}   
+.skill-content{
+    padding: 150px 70px;
+    background-color: #FFF6E9;
+    border-radius: 5px;
+    border: 1px solid;
+    text-align: center;
+}
+#project{
+    height:100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #DDF2FD;
+}
+.img-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:250px;
+    border: 1px solid;
+    padding: 35px;
+    color: white;
+    text-align: center;
+    background-color: #427D9D;
+}
+#project img{
+    height: 300px;
+    width: 250px;
+    margin-bottom: 5px;
+}
+#contact{
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FF9F66;
+}
+.contact-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    padding: 100px;
+    background-color: #1A2130;
+    color:white;
+}
+footer{
+    height: 30vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #1A2130;
+    color:white;
+}
+footer ul{
+    list-style: none; 
+    display: flex;
+    flex-direction: column;
+    gap:4px;
+
+}
+footer a{
+    text-decoration: none;
+    color: #83B4FF;
+}
+footer h1{
+    margin-bottom: 10px;
+}
+
+
+
+#home img:hover{
+    width: 310px;
+    height: 310px;
+    box-shadow: 2px 2px 5px black;
+    border: 6px solid #FFF6E9;
+    transition: 0.2s;
+}
+.skill-content:hover{
+    
+    transition: 0.5s;
+    padding: 154px 72px;
+}
+nav a:hover{
+    padding-bottom: 5px;
+    padding-left: 3px;
+    padding-right: 3px;
+    border-bottom: 1px solid white;
+    transition: 0.5s;
+}
